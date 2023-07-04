@@ -1,0 +1,699 @@
+<html>
+
+<head>
+	<title>Survey Form</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+		crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div class="row ">
+		<div class="mx-auto  col-12 col-md-8 col-lg-8">
+
+			<form class="formdiv">
+				<h1 class="hd">Survey Form</h1>
+				<div class="row">
+					<div class="form-group col-md-6">
+						<label for="name">Name:</label>
+						<input type="text" class="form-control" id="name" placeholder="">
+					</div>
+					<div class="form-group col-md-6">
+						<label for="desg">Designation:</label>
+						<input type="text" class="form-control" id="desg" placeholder="">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="form-group col-md-6">
+						<label for="fy">Factory:</label>
+						<input type="text" class="form-control" id="factory" placeholder="">
+					</div>
+					<div class="form-group col-md-6">
+						<label for="sec">Section:</label>
+						<input type="text" class="form-control" id="sec" placeholder="">
+					</div>
+				</div>
+
+				<section>
+					<table class="table table-bordered " summary="h">
+						<thead>
+							<tr>
+								<th scope="col">#</th>
+								<th scope="col">Group</th>
+								<th scope="col">Softwares</th>
+								<th scope="col">Rating</th>
+								<th scope="col">Remarks</th>
+							</tr>
+						</thead>
+						<tbody>
+							<!-- Main  Web row start-->
+							<tr>
+								<th scope="row" rowspan="5" style="vertical-align: middle;">1</th>
+								<td rowspan="5" style="vertical-align: middle;">Web</td>
+								<!-- sub row 1 web -->
+								<td>E-bidding System</td>
+								<td>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="e_bid" id="
+										e_bid1" value=1>
+										<label class="form-check-label" for="e_bid1">1</label>
+									</div>
+									<div class="form-check form-check-inline ">
+										<input class="form-check-input " type="radio" name="e_bid" id="e_bid2" value=2>
+										<label class="form-check-label" for="e_bid2">2</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="e_bid" id="e_bid3" value=3>
+										<label class="form-check-label" for="e_bid3">3</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="e_bid" id="e_bid4" value=4>
+										<label class="form-check-label" for="e_bid4">4</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="e_bid" id="e_bid5" value=5>
+										<label class="form-check-label" for="e_bid5">5</label>
+									</div>
+								</td>
+								<td> <input type="text" class="form-control col-2" id="e_bid_remark" placeholder="">
+								</td>
+								<!-- sub row 2 web -->
+							<tr>
+								<td>E-Registration System</td>
+								<td>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="e_reg" id="e_reg1" value=1>
+										<label class="form-check-label" for="e_reg1">1</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input " type="radio" name="e_reg" id="e_reg2" value=2>
+										<label class="form-check-label" for="e_reg2">2</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input " type="radio" name="e_reg" id="e_reg3" value=3>
+										<label class="form-check-label" for="e_reg3">3</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input " type="radio" name="e_reg" id="e_reg4" value=4>
+										<label class="form-check-label" for="e_reg4">4</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input " type="radio" name="e_reg" id="e_reg5" value=5>
+										<label class="form-check-label" for="e_reg5">5</label>
+									</div>
+								</td>
+								<td> <input type="text" class="form-control" id="e_reg_remark" placeholder=""></td>
+							</tr>
+							<!-- sub row 3 web -->
+							<tr>
+								<td>ElectroMedical Complaint System</td>
+								<td>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input " type="radio" name="emc" id="emc_1" value=1>
+										<label class="form-check-label" for="emc1">1</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="emc" id="emc2" value=2>
+										<label class="form-check-label" for="emc22">2</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="emc" id="emc3" value=3>
+										<label class="form-check-label" for="emc3">3</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="emc" id="emc4" value=4>
+										<label class="form-check-label" for="emc4">4</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="emc" id="emc5" value=5>
+										<label class="form-check-label" for="emc5">5</label>
+									</div>
+								</td>
+								<td> <input type="text" class="form-control" id="emc_remark" placeholder=""></td>
+							</tr>
+							<!-- sub row 4 web -->
+							<tr>
+								<td>I&E</td>
+								<td>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="ie" id="ie1" value=1>
+										<label class="form-check-label" for="ie1">1</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="ie" id="ie2" value=2>
+										<label class="form-check-label" for="ie2">2</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="ie" id="ie3" value=3>
+										<label class="form-check-label" for="ie3">3</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="ie" id="ie4" value=4>
+										<label class="form-check-label" for="ie4">4</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="ie" id="ie5" value=5>
+										<label class="form-check-label" for="ie5">5</label>
+									</div>
+								</td>
+								<td> <input type="text" class="form-control" id="ie_remark" placeholder=""></td>
+							</tr>
+							<!-- sub row 5 web -->
+							<tr>
+								<td>E-services App</td>
+								<td>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="e_serv" id="e_serv1" value=1>
+										<label class="form-check-label" for="e_serv1">1</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="e_serv" id="e_serv2" value=2>
+										<label class="form-check-label" for="e_serv2">2</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="e_serv" id="e_serv3" value=3>
+										<label class="form-check-label" for="e_serv3">3</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="e_serv" id="e_serv4" value=4>
+										<label class="form-check-label" for="e_serv4">4</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="e_serv" id="e_serv5" value=5>
+										<label class="form-check-label" for="e_serv5">5</label>
+									</div>
+								</td>
+								<td> <input type="text" class="form-control" id="e_serv_remark" placeholder=""></td>
+							</tr>
+							</tr>
+							<!-- main web row ended -->
+
+							<!-- main PPC row start -->
+							<tr>
+								<th scope="row" rowspan="8" style="vertical-align: middle;">2</th>
+								<td rowspan="8" style="vertical-align: middle;">PPC</td>
+								<!-- sub row 1 PPC -->
+								<td>Production Conference System</td>
+								<td>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="pcs" id="
+										pcs1" value=1>
+										<label class="form-check-label" for="pcs1">1</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="pcs" id="pcs2" value=2>
+										<label class="form-check-label" for="pcs2">2</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="pcs" id="pcs3" value=3>
+										<label class="form-check-label" for="pcs3">3</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="pcs" id="pcs4" value=4>
+										<label class="form-check-label" for="pcs4">4</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="pcs" id="pcs5" value=5>
+										<label class="form-check-label" for="pcs5">5</label>
+									</div>
+								</td>
+								<td> <input type="text" class="form-control col-2" id="pcs_remark" placeholder=""></td>
+								<!-- sub row 2 PPC -->
+							<tr>
+								<td>Audit System</td>
+								<td>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="audit_sys" id="audit_sys1"
+											value=1>
+										<label class="form-check-label" for="audit_sys1">1</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="audit_sys" id="audit_sys2"
+											value=2>
+										<label class="form-check-label" for="audit_sys2">2</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="audit_sys" id="audit_sys3"
+											value=3>
+										<label class="form-check-label" for="audit_sys3">3</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="audit_sys" id="audit_sys4"
+											value=4>
+										<label class="form-check-label" for="audit_sys4">4</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="audit_sys" id="audit_sys5"
+											value=5>
+										<label class="form-check-label" for="audit_sys5">5</label>
+									</div>
+								</td>
+								<td> <input type="text" class="form-control" id="audit_sys_remark" placeholder=""></td>
+							</tr>
+							<!-- sub row 3 PPC -->
+							<tr>
+								<td>Transport System</td>
+								<td>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="tpt_sys" id="tpt_sys1"
+											value=1>
+										<label class="form-check-label" for="tpt_sys1">1</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="tpt_sys" id="tpt_sys2"
+											value=2>
+										<label class="form-check-label" for="tpt_sys2">2</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="tpt_sys" id="tpt_sys3"
+											value=3>
+										<label class="form-check-label" for="tpt_sys3">3</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="tpt_sys" id="tpt_sys4"
+											value=4>
+										<label class="form-check-label" for="tpt_sys4">4</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="tpt_sys" id="tpt_sys5"
+											value=5>
+										<label class="form-check-label" for="tpt_sys5">5</label>
+									</div>
+								</td>
+								<td> <input type="text" class="form-control" id="tpt_sys_remark" placeholder=""></td>
+							</tr>
+							<!-- sub row 4 PPC -->
+							<tr>
+								<td>Export System</td>
+								<td>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="exp_sys" id="exp_sys1"
+											value=1>
+										<label class="form-check-label" for="exp_sys1">1</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="exp_sys" id="exp_sys2"
+											value=2>
+										<label class="form-check-label" for="exp_sys2">2</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="exp_sys" id="exp_sys3"
+											value=3>
+										<label class="form-check-label" for="exp_sys3">3</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="exp_sys" id="exp_sys4"
+											value=4>
+										<label class="form-check-label" for="exp_sys4">4</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="exp_sys" id="exp_sys5"
+											value=5>
+										<label class="form-check-label" for="exp_sys5">5</label>
+									</div>
+								</td>
+								<td> <input type="text" class="form-control" id="exp_sys_remark" placeholder=""></td>
+							</tr>
+							<!-- sub row 5 PPC -->
+							<tr>
+								<td>Warrants & Estimates</td>
+								<td>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="w_e" id="w_e1" value=1>
+										<label class="form-check-label" for="w_e1">1</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="w_e" id="w_e2" value=2>
+										<label class="form-check-label" for="w_e2">2</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="w_e" id="w_e3" value=3>
+										<label class="form-check-label" for="w_e3">3</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="w_e" id="w_e4" value=4>
+										<label class="form-check-label" for="w_e4">4</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="w_e" id="w_e5" value=5>
+										<label class="form-check-label" for="w_e5">5</label>
+									</div>
+								</td>
+								<td> <input type="text" class="form-control" id="w_e_remark" placeholder=""></td>
+							</tr>
+							<!-- sub row 6 PPC -->
+							<tr>
+								<td>QA System</td>
+								<td>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="qa_sys" id="qa_sys1" value=1>
+										<label class="form-check-label" for="qa_sys1">1</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="qa_sys" id="qa_sys2" value=2>
+										<label class="form-check-label" for="qa_sys2">2</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="qa_sys" id="qa_sys3" value=3>
+										<label class="form-check-label" for="qa_sys3">3</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="qa_sys" id="qa_sys4" value=4>
+										<label class="form-check-label" for="qa_sys4">4</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="qa_sys" id="qa_sys5" value=5>
+										<label class="form-check-label" for="qa_sys5">5</label>
+									</div>
+								</td>
+								<td> <input type="text" class="form-control" id="qa_sys_remark" placeholder=""></td>
+							</tr>
+							<!-- sub row 7 PPC -->
+							<tr>
+								<td>Costing</td>
+								<td>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="costing" id="costing1"
+											value=1>
+										<label class="form-check-label" for="costing1">1</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="costing" id="costing2"
+											value=2>
+										<label class="form-check-label" for="costing2">2</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="costing" id="costing3"
+											value=3>
+										<label class="form-check-label" for="costing3">3</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="costing" id="costing4"
+											value=4>
+										<label class="form-check-label" for="costing4">4</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="costing" id="costing5"
+											value=5>
+										<label class="form-check-label" for="costing5">5</label>
+									</div>
+								</td>
+								<td> <input type="text" class="form-control" id="costing_remark" placeholder=""></td>
+							</tr>
+							<!-- sub row 8 PPC -->
+							<tr>
+								<td>Labour Booking & Abstract</td>
+								<td>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="lba_sys" id="lba_sys1"
+											value=1>
+										<label class="form-check-label" for="lba_sys1">1</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="lba_sys" id="lba_sys2"
+											value=2>
+										<label class="form-check-label" for="lba_sys2">2</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="lba_sys" id="lba_sys3"
+											value=3>
+										<label class="form-check-label" for="lba_sys3">3</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="lba_sys" id="lba_sys4"
+											value=4>
+										<label class="form-check-label" for="lba_sys4">4</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="lba_sys" id="lba_sys5"
+											value=5>
+										<label class="form-check-label" for="lba_sys5">5</label>
+									</div>
+								</td>
+								<td> <input type="text" class="form-control" id="lba_sys_remark" placeholder=""></td>
+							</tr>
+							</tr>
+							<!-- main PPC row ended -->
+
+							<!-- main Procerurement row start -->
+
+							<tr>
+								<th scope="row" rowspan="2" style="vertical-align: middle;">3</th>
+								<td rowspan="2" style="vertical-align: middle;">Procurement</td>
+								<!-- sub row 1 Procuremnt -->
+								<td>E-procurement</td>
+								<td>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="e_proc" id="
+										e_proc1" value=1>
+										<label class="form-check-label" for="e_proc">1</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="e_proc" id="e_proc2" value=2>
+										<label class="form-check-label" for="e_proc">2</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="e_proc" id="e_proc3" value=3>
+										<label class="form-check-label" for="e_proc">3</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="e_proc" id="e_proc4" value=4>
+										<label class="form-check-label" for="e_proc">4</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="e_proc" id="e_proc5" value=5>
+										<label class="form-check-label" for="e_proc">5</label>
+									</div>
+								</td>
+								<td> <input type="text" class="form-control col-2" id="e_proc_remark" placeholder="">
+								</td>
+							<tr>
+								<!-- sub row 2 procurement -->
+								<td>Portal Update</td>
+								<td>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="port_updt" id="
+										port_updt1" value=1>
+										<label class="form-check-label" for="port_updt">1</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="port_updt" id="port_updt2"
+											value=2>
+										<label class="form-check-label" for="port_updt">2</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="port_updt" id="port_updt3"
+											value=3>
+										<label class="form-check-label" for="port_updt">3</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="port_updt" id="port_updt4"
+											value=4>
+										<label class="form-check-label" for="port_updt">4</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="port_updt" id="port_updt5"
+											value=5>
+										<label class="form-check-label" for="port_updt">5</label>
+									</div>
+								</td>
+								<td> <input type="text" class="form-control col-2" id="port_updt_remark" placeholder="">
+								</td>
+							</tr>
+							</tr>
+
+							<!-- main Procerurement row ended -->
+
+
+							<!-- Inventory(MC,Store,Accounts,Barcode Inventory)-->
+							<!-- main  Inventory row start -->
+							<tr>
+								<th scope="row" rowspan="4" style="vertical-align: middle;">4</th>
+								<td rowspan="4" style="vertical-align: middle;">Inventory</td>
+								<!-- sub row 1 Inventory -->
+								<td>MC</td>
+								<td>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="m_c" id="
+										m_c1" value=1>
+										<label class="form-check-label" for="m_c">1</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="m_c" id="m_c2" value=2>
+										<label class="form-check-label" for="m_c">2</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="m_c" id="m_c3" value=3>
+										<label class="form-check-label" for="m_c">3</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="m_c" id="m_c4" value=4>
+										<label class="form-check-label" for="m_c">4</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="m_c" id="m_c5" value=5>
+										<label class="form-check-label" for="m_c">5</label>
+									</div>
+								</td>
+								<td> <input type="text" class="form-control col-2" id="m_c_remark" placeholder="">
+								</td>
+								<!-- sub row 2 inventory -->
+							<tr>
+								<td>Store</td>
+								<td>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="store" id="
+																			store1" value=1>
+										<label class="form-check-label" for="store">1</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="store" id="store2" value=2>
+										<label class="form-check-label" for="store">2</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="store" id="store3" value=3>
+										<label class="form-check-label" for="store">3</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="store" id="store4" value=4>
+										<label class="form-check-label" for="store">4</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="store" id="store5" value=5>
+										<label class="form-check-label" for="store">5</label>
+									</div>
+								</td>
+								<td> <input type="text" class="form-control col-2" id="store_remark" placeholder="">
+								</td>
+							</tr>
+							<!-- sub row 3 inventory -->
+							<tr>
+								<td>Accounts</td>
+								<td>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="accounts" id="accounts1"
+											value=1>
+										<label class="form-check-label" for="accounts">1</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="accounts" id="accounts2"
+											value=2>
+										<label class="form-check-label" for="accounts">2</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="accounts" id="accounts3"
+											value=3>
+										<label class="form-check-label" for="accounts">3</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="accounts" id="accounts4"
+											value=4>
+										<label class="form-check-label" for="accounts">4</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="accounts" id="accounts5"
+											value=5>
+										<label class="form-check-label" for="accounts">5</label>
+									</div>
+								</td>
+								<td> <input type="text" class="form-control col-2" id="accounts_remark" placeholder="">
+								</td>
+							</tr>
+							<!-- sub row 4 inventory -->
+							<tr>
+								<td>Barcode Inventory</td>
+								<td>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="barcode_inv"
+											id="barcode_inv1" value=1>
+										<label class="form-check-label" for="barcode_inv">1</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="barcode_inv"
+											id="barcode_inv2" value=2>
+										<label class="form-check-label" for="barcode_inv">2</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="barcode_inv"
+											id="barcode_inv3" value=3>
+										<label class="form-check-label" for="barcode_inv">3</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="barcode_inv"
+											id="barcode_inv4" value=4>
+										<label class="form-check-label" for="barcode_inv">4</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="barcode_inv"
+											id="barcode_inv5" value=5>
+										<label class="form-check-label" for="barcode_inv">5</label>
+									</div>
+								</td>
+								<td> <input type="text" class="form-control col-2 " id="port_updt_remark"
+										placeholder="">
+								</td>
+							</tr>
+							</tr>
+							<!-- main  Inventory row ended -->
+
+
+							<!-- Office Automation(officium)-->
+							<!-- main  Office Automation row started -->
+							<tr>
+								<th scope="row">5</th>
+								<td>Office Automation </td>
+								<!-- sub row 1 officuim -->
+								<td>Officium</td>
+								<td>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="officium" id="
+																	officium1" value=1>
+										<label class="form-check-label" for="officium">1</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="officium" id="officium2"
+											value=2>
+										<label class="form-check-label" for="officium">2</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="officium" id="officium3"
+											value=3>
+										<label class="form-check-label" for="officium">3</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="officium" id="officium4"
+											value=4>
+										<label class="form-check-label" for="officium">4</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="officium" id="officium5"
+											value=5>
+										<label class="form-check-label" for="officium">5</label>
+									</div>
+								</td>
+								<td> <input type="text" class="form-control col-2" id="officium_remark" placeholder="">
+								</td>
+								<!-- main  Office Automation row ended -->
+
+								<!-- Personel(temporary more,ACs integration with payroll,RFID card of employee,Mobile app for ED,Personnel system,Pay System)-->
+						</tbody>
+					</table>
+				</section>
+
+				<button type="submit" class="btn btn-success">Submit</button>
+
+			</form>
+
+		</div>
+	</div>
+
+
+
+
+</body>
+
+</html>
